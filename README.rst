@@ -2,7 +2,6 @@ sentimentpy
 ===========
 
 .. image:: bin/sentimentpy_logo/py_sentimentpy.png
-    :scale: 100 %
     :alt: Module Logo
     
 
