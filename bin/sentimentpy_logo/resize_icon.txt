@@ -1,0 +1,1 @@
+ffmpeg -i py_sentimentpya.png -vf scale=150:-1 py_sentimentpy.png
