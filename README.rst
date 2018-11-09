@@ -3,6 +3,7 @@ sentimentpy
 
 .. image:: bin/sentimentpy_logo/py_sentimentpya.png
     :alt: Module Logo
+    :scale: 50 %
     
 **sentimentpy** is designed to quickly calculate text polarity sentiment at the sentence level and optionally aggregate by rows or grouping variable(s).  
 
