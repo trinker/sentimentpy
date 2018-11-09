@@ -1,7 +1,7 @@
 sentimentpy
 ===========
 
-.. image:: bin/sentimentpy_logo/py_sentimentpy.png
+.. image:: bin/sentimentpy_logo/py_sentimentpyb.png
     :alt: Module Logo
     
 
