@@ -281,8 +281,17 @@ def split_sentences(x):
 # =============================================================================
 
 
-# s = x = [' I like you.  P.S. I like carrots too mrs. dunbar. Well let\'s go to 100th st. around the corner.   ', 'Hello Dr. Rinker.  How are you?', 'This is sill.']
-# get_sentences2(s)
+if __name__ == '__main__':
+    # --- examples -------
+    s = [
+        ' I like you.  P.S. I like carrots too mrs. dunbar. Well let\'s go to 100th st. around the corner.   ', 
+        'Hello Dr. Livingstone.  How are you?', 
+        'This is sill an incomplete thou.'
+        
+    ]
+
+    split_sentences(s)
+
 
 
 
