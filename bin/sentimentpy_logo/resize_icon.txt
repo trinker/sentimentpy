@@ -1,1 +1,3 @@
 ffmpeg -i py_sentimentpya.png -vf scale=150:-1 py_sentimentpy.png
+
+convert py_sentimentpya.png -transparent white -resize 25% -crop 0x0-30-30 py_sentimentpy.png
