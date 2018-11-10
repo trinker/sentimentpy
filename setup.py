@@ -1,3 +1,17 @@
+import codecs
+import os
+from setuptools import setup, find_packages
+
+HERE = os.path.abspath(os.path.dirname(__file__))
+def read(*parts):
+    """
+    Build an absolute path from *parts* and and return the contents of the
+    resulting file.  Assume UTF-8 encoding.
+    """
+    with codecs.open(os.path.join(HERE, *parts), "rb", "utf-8") as f:
+        return f.read()
+        
+        
 setup(
   name = 'sentimentpy',
   #packages = ['vaderSentiment'], # this must be the same as the name above
