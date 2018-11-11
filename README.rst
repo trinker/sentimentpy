@@ -5,7 +5,9 @@ sentimentpy
    :alt: Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.
    :target: https://www.repostatus.org/#wip
     
-    
+.. image:: https://img.shields.io/travis/trinker/sentimentpy/master.svg?style=flat-square&logo=travis
+    :target: https://travis-ci.org/trinker/sentimentpy
+    :alt: Build Status
     
 .. image:: bin/sentimentpy_logo/py_sentimentpyb.png
     :alt: Module Logo
