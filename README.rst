@@ -33,7 +33,7 @@ Sentence Splitting
 
 ::
        
-import sentimentpy.split_sentences as ss
+    import sentimentpy.split_sentences as ss
     
     s = [
         ' I like you.  P.S. I like carrots too mrs. dunbar. Well let\'s go to 100th st. around the corner.   ', 
