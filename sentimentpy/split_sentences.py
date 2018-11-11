@@ -292,7 +292,19 @@ if __name__ == '__main__':
 
     split_sentences(s)
 
-
+    x = [
+        " ".join(
+            ["Mr. Brown comes! He says hello. i give him coffee.  i will ",
+            "go at 5 p. m. eastern time.  Or somewhere in between!go there"
+        ]),
+        " ".join(
+            ["Marvin K. Mooney Will You Please Go Now!", "The time has come.",
+            "The time has come. The time is now. Just go. Go. GO!",
+            "I don't care how."
+        ])
+    ]
+    
+    ss.split_sentences(x)
 
 
 
